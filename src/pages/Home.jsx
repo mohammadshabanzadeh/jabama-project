@@ -4,7 +4,7 @@ import HouseList from '../components/HouseList'
 
 function Home() {
   return (
-    <div>
+    <div className='overflow-hidden'>
       <Banner />
       <HouseList />
     </div>
