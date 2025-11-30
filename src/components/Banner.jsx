@@ -21,7 +21,7 @@ function Banner() {
           سفر پاییزی از تو ، جابا ممد
         </p>
       </div>
-      <div className="hidden flex-1 lg:flex justify-end items-end">
+      <div className="flex-1 lg:flex justify-end items-end">
         <Search />
       </div>
     </div>
