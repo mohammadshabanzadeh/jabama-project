@@ -1,10 +1,13 @@
-import React from "react";
+import React, { useContext } from "react";
 import CityDropdown from "./CityDropdown";
 import PropertyDropdown from "./PropertyDropdown";
 import PriceDropdown from "./PriceDropdown";
 import { RiSearch2Line } from "react-icons/ri";
+import { HouseContext } from "./HouseContext";
 
 function Search() {
+  const { handleClick } = useContext(HouseContext);
+
   return (
     <div
       className="text-gray-100 px-[30px] py-6 w-[1170px] mx-auto
@@ -17,6 +20,7 @@ function Search() {
       <button
         className="bg-red-500 hover:bg-red-600 transition w-full flex
       lg:lg:max-w-[162px] h-16 rounded-lg justify-center items-center text-lg"
+        onClick={() => handleClick()}
       >
         <RiSearch2Line />
       </button>

@@ -10,7 +10,7 @@ import House6 from './assets/images/houses/vila-6.jpg';
 import Apartment1 from './assets/images/apartments/ap-1.jpeg';
 import Apartment2 from './assets/images/apartments/ap-2.jpg';
 import Apartment3 from './assets/images/apartments/ap-3.png';
-import Apartment4 from './assets/images/apartments/ap-4.jpg'ages
+import Apartment4 from './assets/images/apartments/ap-4.jpg'
 import Apartment5 from './assets/images/apartments/ap-5.jpeg';
 import Apartment6 from './assets/images/apartments/ap-6.jpg';
 
