@@ -18,7 +18,7 @@ function Banner() {
             اجاره ویلا ، سوییت و اقامتگاه در شمال و سراسر ایران
           </span>
           <br />
-          سفر پاییزی از تو ، جاباما
+          سفر پاییزی از تو ، جابا ممد
         </p>
       </div>
       <div className="hidden flex-1 lg:flex justify-end items-end">
