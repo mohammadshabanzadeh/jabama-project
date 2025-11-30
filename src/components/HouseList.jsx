@@ -9,7 +9,7 @@ function HouseList() {
 
   if (loading) {
     return (
-      <ImSpinner9 className="mx-auto animate-spin text-red-500 text-4xl mt-[200px]" />
+      <ImSpinner9 className="mx-auto animate-spin text-red-500 text-8xl mt-[200px] mb-[200px]" />
     );
   }
 
